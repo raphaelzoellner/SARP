@@ -1,0 +1,14 @@
+{
+  "name": "sarp",
+  "version": "1.0.0",
+  "description": "Super Awesome Rollplaying Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Zöllner",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.13.2"
+  }
+}

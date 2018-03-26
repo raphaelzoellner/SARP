@@ -38,6 +38,19 @@
           .add("assets/images/cat.png")
           .load(setup);
 
+      var textureButton = PIXI.Texture.fromImage("assets/images/cat.png");
+      var button = new Sprite(textureButton);
+
+      button.buttonMode = true;
+      button.anchor.set(0.5);
+
+      button.position.x = 75;
+      button.position.y = 75;
+
+      button.interactive = true;
+
+      app.stage.addChild(button);
+
       //This `setup` function will run when the image has loaded
       function setup() {
 
@@ -47,6 +60,7 @@
           //Add the cat to the stage
           app.stage.addChild(cat);
       }
+
   </script>
 </body>
 </html>
